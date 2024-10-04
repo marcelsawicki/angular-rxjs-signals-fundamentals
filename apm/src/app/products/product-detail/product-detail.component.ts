@@ -35,7 +35,7 @@ export class ProductDetailComponent implements OnChanges, OnDestroy{
       })
     )
     .subscribe(
-      product => this.product = product
+      item => this.product = item
     );
    }
   }
